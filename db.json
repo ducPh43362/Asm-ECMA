@@ -1,0 +1,53 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "Áo mùa hè hè 2",
+      "image": "https://picsum.photos/seed/picsum/200/200",
+      "price": 15600,
+      "describe": "Ở đây bán rất chi là nhiều áo"
+    },
+    {
+      "id": "2",
+      "name": "Áo đẹp mùa đông miền nam",
+      "image": "https://picsum.photos/seed/picsum/200/200",
+      "price": 15600,
+      "describe": "Ở đây bán rất chi là nhiều áo"
+    },
+    {
+      "id": "4",
+      "name": "Áo đẹp mùa hè",
+      "image": "https://picsum.photos/seed/picsum/200/200",
+      "price": 15600,
+      "describe": "Ở đây bán rất chi là nhiều áo"
+    },
+    {
+      "id": "5",
+      "name": "66657",
+      "image": "https://picsum.photos/seed/picsum/200/200",
+      "price": "22220",
+      "describe": "good luckuckc"
+    },
+    {
+      "id": "f999",
+      "name": "Quần jean rách 2024",
+      "image": "https://loremflickr.com/300/300",
+      "price": "65000",
+      "describe": "Hàng xịn quảng châu kém chất lượng"
+    }
+  ],
+  "menus": [
+    {
+      "id": "1",
+      "label": "Thống kê",
+      "path": "/admin",
+      "icon": "<svg className={bi}><use xlinkHref={#house-fill} /></svg>"
+    },
+    {
+      "id": "2",
+      "label": "Sản phẩm",
+      "path": "/admin/product",
+      "icon": "<svg className={bi}><use xlinkHref={#house-fill} /></svg>"
+    }
+  ]
+}
