@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react'
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
 import ProductPage from './pages/admin/product';
 import DashBoardPage from './pages/admin/DashBoard';
 import { Route, Routes } from 'react-router-dom';
@@ -13,6 +11,8 @@ import ProductUpdatePage from './pages/admin/Product-Update';
 import LayoutWebsite from './components/layouts/layoutWebsite';
 import LayoutAdmin from './components/layouts/layoutAdmin';
 import ProductWebsitePage from './pages/ProductWebsitePage';
+import ProductDetailWebsite from './pages/ProductDetailWebsite';
+import Signin from './pages/Signin';
 
 
 function App() {
@@ -69,6 +69,8 @@ function App() {
               <Route index element={<h1>Home Page</h1>} />
               <Route path='about' element={<h1>About Page</h1>} />
               <Route path='products' element={<ProductWebsitePage  product={productList}/>} />
+              <Route path='products/:id' element={<ProductDetailWebsite />} />
+              <Route path='signin' element={<Signin />}/>
           </Route>
           <Route path='admin' element={<LayoutAdmin />}>
                   <Route index element={<DashBoardPage />} />
