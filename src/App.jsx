@@ -13,6 +13,7 @@ import LayoutAdmin from './components/layouts/layoutAdmin';
 import ProductWebsitePage from './pages/ProductWebsitePage';
 import ProductDetailWebsite from './pages/ProductDetailWebsite';
 import Signin from './pages/Signin';
+import Signup from './pages/Signup';
 
 
 function App() {
@@ -70,7 +71,8 @@ function App() {
               <Route path='about' element={<h1>About Page</h1>} />
               <Route path='products' element={<ProductWebsitePage  product={productList}/>} />
               <Route path='products/:id' element={<ProductDetailWebsite />} />
-              <Route path='signin' element={<Signin />}/>
+              <Route path='signup' element={<Signup />}/>
+              <Route path='signin' element={<Signin />} />
           </Route>
           <Route path='admin' element={<LayoutAdmin />}>
                   <Route index element={<DashBoardPage />} />

@@ -70,6 +70,16 @@
       "email": "register@gmail.com",
       "password": "$2a$10$c2Tz598fIhkd4xi1QodIleH1UgXeeotDNrGzNO4b9mhMw6xdC792.",
       "id": 4
+    },
+    {
+      "email": "hainam@gmail.com",
+      "password": "$2a$10$04kv3uSL1JqpPr4k7/dGA.1HMbS0UaFEla3U9oN8jbq97KCJdMCRG",
+      "id": 5
+    },
+    {
+      "email": "phamchi111@gmail.com",
+      "password": "$2a$10$AKX5qsdkZzRXAMDwvLR56eMqo5QSE9.N4ZeL8QiubQSnoxh3.djvi",
+      "id": 6
     }
   ]
 }
