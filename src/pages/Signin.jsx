@@ -6,6 +6,7 @@ import instance from '../api/config';
 import { useLocalStorage } from '../hook/useStorage';
 
 
+
 const Signin = () => {
     const {register,handleSubmit} = useForm();
     const [user,setUser] = useLocalStorage("user", {})
@@ -23,7 +24,7 @@ const Signin = () => {
   return (
 
     <div>
-        {JSON.stringify(user)}
+        {/* {JSON.stringify(user)} */}
         <h2 className='tw-mb-8'>Đăng nhập</h2>
         <form onSubmit={handleSubmit(onSubmitClick)}>
             <div className="mb-3">
@@ -35,6 +36,7 @@ const Signin = () => {
                 <input type="password" {...register("password")} className="form-control"  placeholder="Password" />
             </div>
             <button type="submit" className="btn btn-primary">Đăng nhập</button>
+            
         </form>
     </div>
   )

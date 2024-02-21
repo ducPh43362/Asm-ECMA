@@ -12,13 +12,13 @@ export const addUser = async (newUser) => {
 }
 
 // Đăng nhập 
-// export const loginUser = async (newUser) => {
-//     const [user,setUser] = useLocalStorage("user", {})
-//     try {
-//         const { data }  = await instance.post(`/signin`,newUser);
-//         console.log(data);
-//         setUser(data);
-//     } catch (error) {
-//         console.log(error);
-//     }
-// }
+export const loginUser = async (newUser) => {
+    const [user,setUser] = useLocalStorage("user", {})
+    try {
+        const { data }  = await instance.post(`/signin`,newUser);
+        console.log(data);
+        setUser(data);
+    } catch (error) {
+        console.log(error);
+    }
+}

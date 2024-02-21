@@ -1,6 +1,7 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import { addUser } from '../api/users';
+import { Link } from 'react-router-dom';
 
 
 const Signup = () => {
@@ -23,6 +24,7 @@ const Signup = () => {
                 <input type="password" {...register("password")} className="form-control"  placeholder="Password" />
             </div>
             <button type="submit" className="btn btn-primary">Đăng kí</button>
+            <Link to="/signin" className='tw-ml-6 ' >Đăng nhập</Link>
         </form>
     </div>
   )

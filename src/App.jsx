@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import ProductPage from './pages/admin/product';
+import ProductPage from './pages/admin/Product';
 import DashBoardPage from './pages/admin/DashBoard';
 import { Route, Routes } from 'react-router-dom';
 import { UpdateProductById, getProduct } from './api/product';
